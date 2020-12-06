@@ -1,0 +1,1328 @@
+/* top */
+
+/* Hero */
+.hero{
+    position: relative;
+    height: 820px;
+    margin-bottom: 200px;
+}
+.heroSlide{
+    position: absolute;
+    width: 500px;
+    height: 820px;
+    left: 50%;
+    -webkit-transform: translateY(0) translateX(-50%);
+    transform: translateY(0) translateX(-50%);
+    opacity: 0.0;
+    z-index: 8;
+}
+.heroSlide.active{
+    z-index: 10;
+    opacity: 1.0;
+}
+.heroSlide.lastActive {
+    z-index: 9;
+}
+.slideTxtImage{
+    position: absolute;
+    bottom: 0;
+}
+.slideBg{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+.slideContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin-left: 250px;
+    white-space: nowrap;
+}
+.slideContent h2{
+    font-size: 2rem;
+}
+.slideContent .slideTxt{
+    color: #707070;
+    font-size: 0.8rem;
+    line-height: 2.7;
+    font-weight: lighter;
+}
+.slideContent .slideLink{
+    font-family: serif;
+    text-align: right;
+}
+.slideContent .slideLink a{
+    color: #707070;
+    font-size: 1.0rem;
+    border-bottom: 1px solid #707070;
+}
+/* service */
+.service{
+    text-align: center;
+    margin: 0 10% 100px;
+}
+.service .commonTtl1{
+    margin-bottom: 80px;
+}
+.service .swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.service .swiperContent{
+    text-align: left;
+    padding-top: 60px;
+    width: 450px;
+}
+.service .swiperContent h3{
+    color: #707070;
+    font-weight: lighter;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.service .swiperContent .mainTtl{
+    font-family: serif;
+    border-bottom: 1px solid #707070;
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.service .swiperContent .subTtl{
+    text-align: right;
+    font-size: 0.8rem;
+    display: block;
+}
+.service .swiperContent .swiperTxt{
+    width: 300px;
+    color: #707070;
+    font-size: 0.8rem;
+    padding-left: 35px;
+    line-height: 2.7;
+    margin-bottom: 80px;
+}
+.service .swiperContent .swiperLink{
+    text-align: right;
+}
+.service .swiperContent .swiperLink a{
+    font-family: serif;
+    color: #707070;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #707070;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    width: 38px;
+    height: 70px;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    background-image: url(../images/top/arrow_l.svg);
+    background-size: 38px auto;
+    left: 10px;
+    right: auto;
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    background-image: url(../images/top/arrow_r.svg);
+    background-size: 38px auto;
+    right: 10px;
+    left: auto;
+}
+
+/* companyTop */
+.companyTop .commonTtl2{
+    margin-bottom: 20px;
+}
+
+/* contact */
+.contact{
+    text-align: center;
+    padding: 100px 0;
+}
+.contact .commonBtn a{
+    font-size: 1.5rem;
+    width: 450px;
+    padding: 15px 0;
+}
+
+/* greeting */
+.greeting{
+    width: 800px;
+    margin: 0 auto 80px;
+}
+.greeting .commonTtl2{
+    font-size: 2.0rem;
+}
+.greetingContent{
+    display: flex;
+}
+.greetingImg{
+    width: 140px;
+    height: 200px;
+    margin-right: 30px;
+}
+.greetingTxt{
+    width: 570px;
+}
+.greetingTxt h3{
+    color: #707070;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.greetingTxt h3 span{
+    display: block;
+    font-size: 0.9rem;
+}
+.greetingTxt .greetingSub{
+    color: #707070;
+    font-size: 0.9rem;
+    line-height: 2.0;
+}
+/* company */
+.company{
+    padding: 80px 0;
+}
+.company .commonTtl2{
+    font-size: 2.0rem;
+}
+.companyInner{
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* servicePage */
+.serviceTop{
+    background-image: url(../images/service/service_ttl@2x.png);
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+    margin-bottom: 100px;
+}
+.serviceTop2{
+    background-image: url(../images/service/service_ttl2@2x.png);
+    height: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+    margin-bottom: 100px;
+}
+.serviceTop h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: lighter;
+    color: #707070;
+    font-size: 2.0rem;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.serviceTop h1 span{
+    position: relative;
+    display: block;
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.serviceTop h1 span:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: #C3F7E7;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.servicePage .commonTtl2:before{
+    background-color: #A7E1E3;
+}
+.contentInner{
+    position: relative;
+    margin: 0 auto;
+    width: 1080px;
+}
+.contentInner .commonBtn a{
+    width: 300px;
+    text-align: center;
+    padding: 10px 0;
+}
+.serviceTop img{
+    width: 100%;
+    height: auto;
+}
+.serviceAnc{
+    margin-bottom: 150px;
+}
+.serviceAnc ul{
+    display: flex;
+    justify-content: center;
+}
+.serviceAnc li{
+    margin: 0 2em;
+}
+.serviceAnc li a{
+    color: #707070;
+    font-size: 1.7rem;
+    display: block;
+    position: relative;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+.serviceAnc li a:before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: inline-block;
+    width: 50%;
+    height: 5px;
+    background: #C3F7E7;
+    transition: 1s;
+}
+.serviceAnc li a:hover:before{
+    width: 100%;
+}
+
+/* doctors */
+.doctors .contentInner{
+    padding: 60px 0 100px;
+}
+.doctors .commonTtl2{
+    position: absolute;
+    top: -22px;
+    font-size: 1.8rem;
+}
+.doctors .docTxt{
+    width: 555px;
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+}
+.series{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    width: 2000px;
+}
+.series.helena{
+    margin-top: 20px;
+}
+.seriesContent{
+    margin-right: 4em;
+    width: 450px;
+    transition: 1s;
+    -wekit-transition: 1s;
+}
+.seriesContent.active{
+    transform: translateX(-200%);
+}
+.series .helenaTxt{
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+}
+.products {
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    -wekit-transition: 1s;
+}
+.products.active{
+    transform: translateX(-450px);
+}
+.productContent{
+    width: 750px;
+    overflow: hidden;
+/*    margin-right: -800px;*/
+}
+.products .productList{
+    display: flex;
+    width: 1500px;
+    transition: 1s;
+    -wekit-transition: 1s;
+}
+.products .productList > li{
+    width: 260px;
+    padding: 25px;
+    border-right: 5px solid #fff;
+}
+.productNav{
+    text-align: center;
+    margin-top: 15px;
+}
+.productNav .prev{
+    display: inline-block;
+    position: relative;
+    padding-right: 15px;
+}
+.productNav .prev:after{
+    content: "|";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto 0;
+    font-size: 1.2rem;
+    color: #707070;
+}
+.productNav .next{
+    display: inline-block;
+    padding-left: 10px;
+}
+.products .clickBtn{
+    margin-right: 4em;
+}
+.productImg{
+    text-align: center;
+    height: 200px;
+}
+.productImg img{
+    height: 100%;
+    width: auto;
+}
+.sti li:nth-child(4) .productImg img{
+    width: 130px;
+    height: auto;
+    margin-top: 50px;
+}
+.products .productList li h4,
+.products .productList .productTxt{
+    font-size: 0.8rem;
+    color: #707070;
+    font-weight: lighter;
+}
+.products .productList li h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.products .productList .productTxt{
+    line-height: 1.6;
+}
+.productTag{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productTag li{
+    font-size: 0.7rem;
+    color: #fff;
+    background: #E3CC97;
+    padding: 2px 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+/* vitamin */
+.vitamin .contentInner{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+.vitamin .ttlBox{
+    position: absolute;
+    top: -60px;
+    width: 450px;
+}
+.vitamin .commonTtl2{
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 260px;
+    -webkit-transform: translateY(0) translateX(-50%);
+    transform: translateY(0) translateX(-50%);
+}
+.vitamin .vitaminContent{
+    display: flex;
+}
+.vitaminLeft{
+    margin-top: 150px;
+    margin-right: 10em;
+    width: 450px;
+}
+.vitaminLeft h3{
+    font-family: serif;
+    color: #707070;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.vitaminLeft .vitaminTxt{
+    font-size: 0.8rem;
+    color: #707070;
+    font-weight: lighter;
+    line-height: 2.0;
+}
+
+/* medical */
+.medical .contentInner{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.medical .ttlBox{
+    position: relative;
+}
+.medical .ttlBox img{
+    position: absolute;
+    right: 0;
+    top: -160px;
+}
+.medical .ttlBox .commonTtl2{
+    font-size: 2rem;
+}
+.medical .medicalContent{
+    width: 450px;
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+}
+.medical .medicalList{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.medical .medicalList li{
+    width: 20%;
+    margin: 1.5em;
+}
+.medical .medicalImg{
+    text-align: center;
+}
+.medical .medicalList h3{
+    text-align: center;
+    color: #707070;
+    font-size: 1.0rem;
+}
+.medical .medicalList .medicaltxt{
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 1.6;
+}
+
+/* environ */
+.environ .contentInner{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.environ .commonTtl2{
+    font-family: serif;
+    font-size: 2rem;
+}
+.environContent{
+    display: flex;
+}
+.envrionLeft{
+    width: 450px;
+    margin-right: 10rem;
+}
+.environTxt{
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+    margin-bottom: 40px;
+}
+
+/* project */
+.project .contentInner{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.project .commonTtl2{
+    font-size: 2rem;
+}
+.project .projectImg{
+    position: absolute;
+    top: -120px;
+}
+.projectContent{
+    width: 600px;
+    text-align: right;
+    float: right;
+    margin-bottom: 50px;
+}
+.projectTxt{
+    text-align: left;
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+}
+.doctorsHistory{
+    clear: both;
+    width: 540px;
+}
+.doctorsHistory .commonTtl3{
+    margin-right: 100px;
+    margin-bottom: 6px;
+}
+.doctorsHistory .historyTxt{
+    font-family: serif;
+    color: #707070;
+}
+.doctorsHistory li{
+    font-size: 0.8rem;
+    color: #707070;
+    margin-bottom: 8px;
+}
+
+/* consult */
+.consult .contentInner{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.consult .consultImg{
+    position: absolute;
+    top: -120px;
+    right: 0;
+}
+.consultContent .commonTtl2{
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+.consultContent{
+    width: 450px;
+}
+.consultContent .consultTxt{
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+    margin-bottom: 50px;
+}
+
+/* salon */
+.salonPage .commonTtl2{
+    font-size: 1.8rem;
+    font-family: serif;
+    font-weight: bold;
+}
+.salonPage .commonTtl2:before{
+    background-color: #A7E1E3;
+}
+.salonPage .smallTxt{
+    letter-spacing: -0.8px;
+}
+.salonContent{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.salonLeft{
+    margin: 0 2em;
+}
+.salonRight{
+    width: 450px;
+    margin: 50px 2em 0;
+}
+.menuTtl{
+    font-family: serif;
+    color: #707070;
+    font-weight: lighter;
+    display: inline-block;
+    background: #D7FAEE;
+    font-size: 1.0rem;
+    padding: 7px 20px;
+    margin-bottom: 60px;
+}
+.magicImgList{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.magicImgList li{
+    margin: 0 1em;
+}
+.magicImgList li p {
+    font-size: 0.8em;
+    font-family: serif;
+    color: #707070;
+    letter-spacing: -1.2px;
+    margin-top: 3px;
+}
+.magicImgList li p span {
+    display: block;
+    margin-top: 3px;
+    font-size: 0.8em;
+    letter-spacing: 0;
+}
+.courseContent{
+    display: flex;
+}
+.courseContent .commonTtl3{
+    font-size: 1.8rem;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+.courseLeft{
+    width: 540px;
+    margin: 0 2em 0 0;
+}
+.courseRight{
+    width: 540px;
+    margin: 150px 0 0 0;
+}
+.courseContent .menuList{
+    margin-left: 3em;
+}
+.courseContent .menuList li{
+    margin-bottom: 40px;
+}
+.courseContent .courseTtl{
+    color: #707070;
+    font-family: serif;
+    position: relative;
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
+.courseContent .courseTtl:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8.7px;
+    border-color: transparent transparent transparent #A7E1E3;
+}
+.coursetxt{
+    color: #707070;
+    margin-left: 1.5em;
+    font-size: 0.8rem;
+}
+.courseContent .price{
+    font-family: serif;
+    display: block;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.courseContent .curseOrder,
+.courseContent .curseOrderLast{
+    font-size: 0.8rem;
+}
+.courseContent .curseOrder{
+    display: inline-block;
+    position: relative;
+    padding-right: 10px;
+    margin-right: -2px;
+}
+.courseContent .curseOrder:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 0 4px 6.9px;
+    border-color: transparent transparent transparent #707070;
+}
+.courseContent .curseOrder.price{
+    font-size: 1.0rem;
+    padding-left: 15px;
+}
+.courseContent .curseOrder.price:after{
+    left: 0;
+    right: inherit;
+}
+.courseContent .menuList.option{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courseContent .menuList.option li{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.courseContent .menuList.option li:nth-child(odd){
+    margin-right: 1em;
+}
+.courseContent .menuList.option .courseTtl{
+    font-size: 1.0rem;
+    margin-bottom: 5px;
+}
+.courseContent .menuList.option .courseTtl:before{
+    top: 8px;
+    bottom: inherit;
+    border-color: transparent transparent transparent #707070;
+}
+.courseContent .menuList.option .price{
+    font-size: 0.9rem;
+}
+.courseContent .menuList .add .addTxt{
+    width: 8em;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+/* salonTop */
+.salonTop{
+    background-image: url(../images/salon/salon_bg@2x.png);
+    height: 650px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.salonTopContent{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+.salonTopContent h1{
+    font-weight: lighter;
+    color: #707070;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.salonTopContent h1 span{
+    position: relative;
+    display: block;
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.salonTopContent h1 span:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: #C3F7E7;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.salonTopContent h2{
+    font-family: serif;
+    font-weight: lighter;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.salonTopTxt{
+    font-size: 0.9rem;
+    color: #707070;
+    line-height: 2.0;
+}
+
+/* salonMenu */
+.salonMenu .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+.salonMenu .commonTtl2{
+    margin: 0 4em 0 0;
+}
+.salonMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 64%;
+}
+.salonMenu li{
+    width: 35%;
+    font-family: serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.salonMenu li:nth-child(odd){
+    margin-right: 1em;
+}
+.salonMenu li a{
+    color: #707070;
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+}
+.salonMenu li a:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin:  auto 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 8.7px;
+    border-color: transparent transparent transparent #A7E1E3;
+}
+/* counseling */
+.counseling .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.counseling .couselImg{
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+.counseling .counselContent{
+    width: 450px;
+}
+/* magic */
+.magic .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+/* lymph */
+.lymph .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.lymph .menuTtl{
+    background: #fff;
+}
+/* skin */
+.skin .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.skin .courseContent .menuList.option{
+    display: block;
+}
+.skin .courseContent .menuList.option li{
+    width: 100%;
+    padding-left: 1.5em;
+}
+.skin .courseContent .menuList.option .subTtl{
+    padding-left: 0;
+}
+.skin .courseContent .menuList.option .subTtl .courseTtl{
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+.skin .courseContent .menuList.option .subTtl .courseTtl:before{
+    top: 9px;
+    border-color: transparent transparent transparent #A7E1E3;
+}
+/* chemical */
+.chemical .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.chemicalImg{
+    margin-top: 20px;
+}
+/* staff */
+.staff .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.staff .commonTtl2:after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -2.3em;
+    background: url(../images/salon/nsalon_logo.png) no-repeat;
+    background-size: 67px 67px;
+    width: 67px;
+    height: 67px;
+}
+.staff h3{
+    font-family: serif;
+    color: #707070;
+}
+.staff .salonLeft{
+    margin: 0 2em;
+    width: 450px;
+}
+.staff .salonRight{
+    width: inherit;
+    margin: 0 2em;
+}
+/* contact2 */
+.contact2 .contentInner{
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.contact2 .contentInner .commonBtn a {
+    width: 450px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+.contact2 .commonTtl1{
+    font-family: Helvetica , "游ゴシック", sans-serif;
+    font-size: 1.8rem;
+}
+
+/* contactPage */
+.contactForm .contentInner{
+    width: 800px;
+}
+.contactForm .commonTtl2{
+    font-size: 2.0rem;
+    font-family: serif;
+}
+.contactForm .commonTtl2:before{
+    background-color: #A7E1E3;
+}
+.contactTop{
+    background: #F0FAF7;
+    height: 200px;
+    position: relative;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+    margin-bottom: 100px;
+}
+.contactTop h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    font-weight: lighter;
+    color: #707070;
+    font-size: 2.0rem;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.contactTop h1 span{
+    position: relative;
+    display: block;
+    font-size: 0.8rem;
+    padding-top: 15px;
+}
+.contactTop h1 span:before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 80%;
+    height: 5px;
+    background-color: #C3F7E7;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.contactContent table{
+    width: 100%;
+    margin: 70px auto;
+    border: 1px solid #000;
+}
+.contactContent table tr{
+    border-bottom: 1px solid #000;
+}
+.contactContent table tr:nth-child(even){
+    background: #F8F8F8;
+}
+.contactContent table th{
+    padding: 15px 2em;
+    width: 20em;
+    font-weight: normal;
+}
+.contactContent table td{
+    padding: 15px 2em;
+}
+.contactContent .required{
+    display: inline-block;
+    margin-left: 10px;
+    color: #ea0000;
+}
+.contactContent input,
+.contactContent textarea{
+    width: 100%;
+    font-size: 1.3rem;
+}
+.contactContent label{
+    margin-right: 1em;
+}
+.contactContent input[type=radio]{
+    width: inherit;
+    margin-right: 10px;
+}
+.nameField input{
+    width: 49%;
+}
+.contactEx{
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+.contactEx a{
+    color: #000;
+    text-decoration: underline
+}
+.contactBtn{
+    text-align: center;
+}
+.contactBtn button{
+    color: #fff;
+    background: #E3CC97;
+    width: 300px;
+    padding: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+.contactBtn button:hover{
+    cursor: pointer;
+}
+/* privacy */
+.privacyContent {
+    margin-bottom: 60px;
+}
+
+/* 20201206追記 */
+.project2 {
+    padding-bottom: 240px;
+}
+.project2Flex {
+    display: flex;
+    justify-content: space-between;
+}
+.project2Left {
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+    margin-bottom: 50px;
+    width: 620px;
+}
+.project2 ul {
+    display: flex;
+    justify-content: center;
+}
+.project2 ul li {
+    margin: 0 25px;
+}
+.project2 li a {
+    font-size: 0.9rem;
+    border: 2px solid #A7E1E3;
+    display: block;
+    position: relative;
+    color: #707070;
+    padding: 30px 30px 30px 40px;
+    box-shadow: 0px 0px 6px rgba(0,0,0,.2);
+}
+.project2 li a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 14px;
+    height: 100%;
+    background: #A7E1E3;
+}
+.projectFlowImg {
+    clear: both;
+}
+.service2Page .consultContent {
+    margin-bottom: 80px;
+}
+.service2Page .project .commonTtl3 {
+    width: 50%;
+}
+.service2Page .projectFlowImg {
+    clear: both;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.service2Page .projectFlowImg img {
+    width: 80%;
+    margin: 0 auto;
+}
+.service2Page .projectFlow {
+    margin-bottom: 80px;
+}
+.service2Page .projectFlow .historyTxt {
+    text-align: left;
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+    margin-bottom: 50px;
+}
+.service2Page .projectFlow ul {
+    width: 710px;
+    margin: 0 auto;
+}
+.service2Page .projectFlow li {
+    display: flex;
+    border: 2px solid #A7E1E3;
+    color: #707070;
+    padding-left: 35px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    min-height: 74px;
+    margin-bottom: 50px;
+}
+.service2Page .projectFlow li:nth-child(even) {
+    border: 2px solid #A5C8E6;
+}
+.service2Page .projectFlow li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 14px;
+    height: 100%;
+    background: #A7E1E3;
+}
+.service2Page .projectFlow li:nth-child(even):before {
+    background: #A5C8E6;
+}
+.service2Page .projectFlow li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 37.5px 0 37.5px;
+    border-color: #E3CC97 transparent transparent transparent;
+}
+.service2Page .projectFlow li:last-child:after {
+    display: none;
+}
+.service2Page .projectFlow li h3 {
+    width: 10em;
+    margin-bottom: 0;
+    font-weight: normal;
+}
+.service2Page .projectFlow li p {
+    margin-bottom: 0;
+    width: 520px;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #707070;
+    line-height: 2.0;
+    font-family: serif;
+    padding: 10px 0;
+}
+.service2Page .projectFlow .commonBtn {
+    text-align: center;
+}
+.service2Page .doctorsPartner .commonTtl3 {
+    margin-bottom: 60px;
+}
+.service2Page .doctorsNameImg img {
+    width: 218px;
+}
+.min {
+    font-family: serif;
+}
+.doctorsNameText {
+    font-size: 0.8rem;
+    font-family: serif;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.doctorsNameText span {
+    display: inline-block;
+    border: 1px solid #FFBCEB;
+    padding: 3px 30px;
+    margin-right: 20px;
+}
+.doctorAco h4 {
+    font-size: 1rem;
+    color: #707070;
+    border-bottom: 2px solid #A7E1E3;
+    padding: 5px 15px;
+    position: relative;
+    font-weight: normal;
+}
+.doctorAco2 h4 {
+    border-bottom: 2px solid #A5C8E6;
+}
+.doctorAco li {
+    font-size: 0.9rem;
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8;
+}
+.doctorAco .doctorLeft {
+    width: 26%;
+}
+.doctorAco2 .doctorLeft {
+    color: #A5C8E6;
+    font-weight: bold;
+    width: 5em;
+}
+.doctorAco .doctorRight {
+    width: 70%;
+}
+.doctorAco2 .doctorRight {
+    width: 92%;
+}
+.doctorAco2 li {
+    margin-bottom: 20px;
+}
+.doctorAco ul {
+    margin: 10px 10px 60px;
+}
+.service2Page .project .contentInner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contentInner .zo .commonBtn {
+    text-align: right;
+}
+.contentInner .zo .commonBtn a {
+    width: 150px;
+}
+.doctorAco {
+    margin-bottom: 60px;
+}
+.doctorAco ul {
+    display: none;
+}
+.doctorAco h4:after {
+    content: "open ▼";
+    position: absolute;
+    top: 9px;
+    right: 0;
+    font-size: 0.8rem;
+    color: #a7e0e3;
+    font-weight: normal;
+}
+.doctorAco h4.open:after {
+    content: "close ▲";
+    position: absolute;
+    top: 9px;
+    right: 0;
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+.doctorAco2 h4:after {
+    font-size: 0.8rem;
+    color: #A5C8E6;
+}
+.denter .doctorsNameText span {
+    border: 1px solid #A5C8E6;
+}
+.project2 .commonTtl2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+/* salon */
+.salonTop2 {
+    background-image: url(../images/salon/salon_bg2@2x.png);
+    height: 890px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
