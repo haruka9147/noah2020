@@ -115,7 +115,7 @@ $description = '【株式会社NOAH】は、医療の技術理論と美容エス
 
                 <ul>
                     <li><span class="doctorLeft">平成６年</span><span class="doctorRight">北里大学医学部医学科卒業</span></li>
-                    <li><span class="doctorLeft">平成６年４月</span><span class="doctorRight">慶應義塾大学病院形成外科研修医</span></li>
+                    <li><span class="doctorLeft">平成６年４月～平成７年６月</span><span class="doctorRight">慶應義塾大学病院形成外科研修医</span></li>
                     <li><span class="doctorLeft">平成７年７月～平成８年５月</span><span class="doctorRight">静岡赤十字病院形成外科医員</span></li>
                     <li><span class="doctorLeft">平成８年６月～平成１１年５月</span><span class="doctorRight">国立がんセンター東病院頭頸科形成外科レジデント</span></li>
                     <li><span class="doctorLeft">平成１１年６月～平成１３年６月</span><span class="doctorRight">慶應義塾大学病院形成外科助手</span></li>
@@ -186,7 +186,7 @@ $description = '【株式会社NOAH】は、医療の技術理論と美容エス
                     <li><span class="doctorLeft">２０００年１１月～２００１年３月</span><span class="doctorRight">福井赤十字病院　歯科・歯科口腔外科研修医</span></li>
                     <li><span class="doctorLeft">２００１年４月</span><span class="doctorRight">朝日大学大学院歯学研究科　顎顔面外科学　専攻</span></li>
                     <li><span class="doctorLeft">２００５年３月</span><span class="doctorRight">朝日大学大学院歯学研究科　顎顔面外科学　終了　歯学博士　取得</span></li>
-                    <li><span class="doctorLeft">２００５年４月</span><span class="doctorRight">朝日大学大学院歯学部口腔病態医療学顎顔面外科学　非常勤講師</span></li>
+                    <li><span class="doctorLeft">２００５年４月</span><span class="doctorRight">朝日大学歯学部口腔病態医療学顎顔面外科学　非常勤講師</span></li>
                     <li><span class="doctorLeft">２００６年４月～２０１７年２月</span><span class="doctorRight">バイオクリニック勤務（大阪院長）</span></li>
                     <li><span class="doctorLeft">２０１７年３月</span><span class="doctorRight">トラスト歯科開院</span></li>
                 </ul>
